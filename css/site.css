@@ -37,10 +37,14 @@ h1 {
   white-space: nowrap;
 }
 
-.gallery img {
+.gallery p {
+    display: inline-block;
+}
+
+.gallery img, .gallery p {
   padding-left: 1em;
 }
 
-.gallery img:first-child {
+.gallery img:first-child, .gallery p:first-child {
   padding-left: 0;
 }
