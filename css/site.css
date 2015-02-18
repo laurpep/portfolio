@@ -14,3 +14,17 @@ h1, .links {
 .links a, .links a:visited {
   color: #5acdb3;
 }
+
+.gallery {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.gallery img {
+  padding-left: 1em;
+}
+
+.gallery img:first-child {
+  padding-left: 0;
+}
