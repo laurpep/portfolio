@@ -6,3 +6,7 @@ h1, .links {
   text-align: center;
   text-transform: uppercase;
 }
+
+.links {
+  margin-bottom: 5em;
+}
