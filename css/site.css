@@ -10,3 +10,7 @@ h1, .links {
 .links {
   margin-bottom: 5em;
 }
+
+.links a, .links a:visited {
+  color: #5acdb3;
+}
