@@ -48,3 +48,11 @@ h1 {
 .gallery img:first-child, .gallery p:first-child {
   padding-left: 0;
 }
+
+.about {
+  margin-top: 1em;
+}
+
+.about img {
+  width: 100%;
+}
