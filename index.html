@@ -2,6 +2,9 @@
 layout: default
 ---
 
-{% for post in site.posts %}
-  {{ post.content }}
-{% endfor %}
+
+<div class="col-xs-12 gallery">
+  {% for post in site.posts %}
+    {{ post.content }}
+  {% endfor %}
+</div>
