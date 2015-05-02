@@ -36,7 +36,7 @@ h2{
 
 .links a, .links a:visited {
   color: #b05574;
-  font-family: 'Arial;
+  font:normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
   padding: 0 1em;
 
 }
