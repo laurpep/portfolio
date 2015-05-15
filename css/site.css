@@ -36,8 +36,9 @@ h2{
 }
 
 .links a, .links a:visited {
-  color: #b05574;
-  font:normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+  color: #222;
+  font-family: 'Raleway', sans-serif;
+  font-size:20px;
   padding: 0 1em;
 
 }
