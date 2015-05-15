@@ -14,12 +14,12 @@ img {
 
 h1, .links {
   text-align: center;
-font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
     
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 36px;
   text-transform:uppercase;
 }
 
