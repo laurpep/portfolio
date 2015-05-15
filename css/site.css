@@ -45,6 +45,9 @@ h2{
 .links a:hover {
     text-decoration: none;
 }
+.links a:active {
+    color:#C0C0C0;
+}
 
 .gallery {
   overflow-x: scroll;
