@@ -32,6 +32,7 @@ h2{
 
 .links {
   margin-bottom: 2em;
+  border-bottom:1px solid #D0D0D0;
 }
 
 .links a, .links a:visited {
@@ -40,7 +41,6 @@ h2{
   font-size:14px;
   text-transform:uppercase;
   text-align:center;
-  border-bottom:1px solid #D0D0D0;
 
 }
 
