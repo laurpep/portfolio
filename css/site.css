@@ -18,30 +18,31 @@ h1, .links {
 
 h1 {
   font-size: 36px;
-  text-transform:uppercase;
-  margin-top:30px;
+  text-transform: uppercase;
+  margin-top: 30px;
   text-align: left;
 }
 
 h2{
-    
   font-family: 'Jennifer Lynne';
-  
   font-size: 3em;
 }
 
 .links {
   margin-bottom: 2em;
-  border-bottom:1px solid #D0D0D0;
+  border-bottom: 1px solid #D0D0D0;
 }
 
 .links a, .links a:visited {
   color: #222;
   font-family: 'Raleway', sans-serif;
-  font-size:14px;
-  text-transform:uppercase;
-  text-align:center;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
 
+.links a:hover {
+    text-decoration: none;
 }
 
 .gallery {
