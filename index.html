@@ -3,11 +3,12 @@ layout: default
 ---
 
 
-<div class="col-md-4">
-  {% for post in site.posts %}
+
+{% for post in site.posts %}
+  <div class="col-md-4">
     {{ post.content }}
-  {% endfor %}
-</div>
+  </div>
+{% endfor %}
 <script>
     var arr = document.getElementsByTagName('img');
     for (var i = 0; i < arr.length; i++) { 
