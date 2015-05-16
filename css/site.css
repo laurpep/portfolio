@@ -63,6 +63,10 @@ h2{
   font-size: 14px;
 }
 
+.main a:hover {
+    text-decoration: none;
+}
+
 .gallery {
   overflow-x: scroll;
   overflow-y: hidden;
