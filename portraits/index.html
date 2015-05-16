@@ -2,10 +2,9 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% for post in site.categories.portraits %}
   <div class="col-md-4">
     {{ post.content }}
-    {{ post.categories }}
   </div>
 {% endfor %}
 <script>
