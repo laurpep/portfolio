@@ -48,7 +48,7 @@ h2{
     margin-bottom: 1em;
 }
 
-.category img {
+.category img, .main img {
   max-width: 100%;
 }
 
