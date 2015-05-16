@@ -47,6 +47,9 @@ h2{
     text-decoration: none;
 }
 
+.category p {
+    text-align: center;
+}
 
 .gallery {
   overflow-x: scroll;
