@@ -8,10 +8,6 @@
     src: url('../fonts/nothing-you-could-do.ttf') format('truetype');
 }
 
-img {
-  max-height: 500px;
-}
-
 h1, .links {
   font-family: 'Raleway', sans-serif;    
 }
@@ -49,6 +45,11 @@ h2{
 
 .category p {
     text-align: center;
+    margin-bottom: 1em;
+}
+
+.gallery img {
+  max-width: 100%;
 }
 
 .gallery {
