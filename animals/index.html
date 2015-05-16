@@ -1,23 +1,6 @@
 ---
-layout: default
+layout: category
+category: animals
 ---
 
-{% for post in site.categories.animals %}
-  <div class="col-md-4">
-    {{ post.content }}
-  </div>
-{% endfor %}
-<script>
-    var arr = document.getElementsByTagName('img');
-    for (var i = 0; i < arr.length; i++) { 
-        var img = arr[i];
-        var oldParent = img.parentNode;
-        img.parentNode.removeChild(img);
-        var a = document.createElement('a');
-        a.href = img.src;
-        a.setAttribute("data-lightbox", img.src);
-        a.setAttribute("data-title", img.alt);
-        a.appendChild(img);
-        oldParent.appendChild(a);
-    }
-</script>
+
