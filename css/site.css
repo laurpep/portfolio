@@ -52,6 +52,17 @@ h2{
   max-width: 100%;
 }
 
+.main {
+  text-align:center;
+  margin-bottom:1em;
+}
+
+.main a, .main a:visited {
+  color:#222;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
 .gallery {
   overflow-x: scroll;
   overflow-y: hidden;
