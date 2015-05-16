@@ -57,6 +57,10 @@ h2{
   margin-bottom:1em;
 }
 
+.main img {
+ margin-bottom:1em;
+}
+
 .main a, .main a:visited {
   color:#222;
   font-family: 'Raleway', sans-serif;
