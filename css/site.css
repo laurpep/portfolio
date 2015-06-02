@@ -4,6 +4,26 @@ body {
   font-style: normal;
   font-size: 14px;
 }
+/* unvisited link */
+a:link {
+    color: #8ac3bf;
+}
+
+/* visited link */
+a:visited {
+    color: #8ac3bf;
+}
+
+/* mouse over link */
+a:hover {
+    color: #222222;
+}
+
+/* selected link */
+a:active {
+    color: #8ac3bf;
+}
+
 @font-face {
     font-family: 'Jennifer Lynne';
     src: url('../fonts/jennifer-lynne.ttf') format('truetype');
