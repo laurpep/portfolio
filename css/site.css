@@ -6,12 +6,12 @@ body {
 }
 /* unvisited link */
 a:link {
-    color: #8ac3bf;
+    color: #e6005c;
 }
 
 /* visited link */
 a:visited {
-    color: #8ac3bf;
+    color: #e6005c;
 }
 
 /* mouse over link */
@@ -21,7 +21,7 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #8ac3bf;
+    color: #e6005c;
 }
 
 @font-face {
