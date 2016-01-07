@@ -21,7 +21,7 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #e6005c;
+    color: #222222;
 }
 
 @font-face {
