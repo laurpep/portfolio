@@ -2,13 +2,14 @@
 layout: default
 ---
 
+<div class="slick-carousel">
 {% for post in site.categories[page.category] %}
-  <div class="row category">
-    <div class="col-md-offset-3 col-md-6">
+  <div class="category">
       {{ post.content }}
-    </div>
   </div>
 {% endfor %}
+</div>
+
 <script>
     var arr = document.getElementsByTagName('img');
     for (var i = 0; i < arr.length; i++) { 
@@ -22,4 +23,16 @@ layout: default
         a.appendChild(img);
         oldParent.appendChild(a);
     }
+</script>
+
+<script>
+  $(document).ready(function() {
+    $('.slick-carousel').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+    });
+  });
 </script>
