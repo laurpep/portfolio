@@ -14,7 +14,11 @@ layout: default
 <div class="row">
     <div class="slick-carousel-nav col-md-offset-3 col-md-6">
       <div id="slick-nav-anchor">
-        {{ page.year }}<br>{{site.categories}}<br>{{ site.categories[page.year] }}</div>
+        {{ page.year }}<br>
+        {{ site.categories }}<br>
+        {{ site.categories[page.year].content }}<br>
+        {{ site.categories[page.category].content }}<br>
+      </div>
     </div>
 </div>
 
