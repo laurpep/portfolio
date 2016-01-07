@@ -167,4 +167,5 @@ margin-top:-20px;
 button.slick-prev, button.slick-next {
   background: none;
   border: none;
+  font-size: 5em;
 }
