@@ -168,16 +168,16 @@ button.slick-prev, button.slick-next {
   background: none;
   border: none;
   font-size: 5em;
+  position: relative;
+  top: 1.5em;
 }
 
 button.slick-prev {
   right: 5em;
-  top: 1.5em;
 }
 
 button.slick-next {
   left: 5em;
-  top: 1.5em;
 }
 
 #slick-nav-anchor {
