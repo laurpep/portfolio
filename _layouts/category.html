@@ -9,6 +9,7 @@ layout: default
           {{ post.content }}
       </div>
 {% endfor %}
+      <div class="slick-nav-anchor"></div>
     </div>
 </div>
 
@@ -35,6 +36,7 @@ layout: default
       speed: 300,
       slidesToShow: 1,
       adaptiveHeight: true,
+      appendArrows: $(".slick-nav-anchor"),
       prevArrow: "<button type=\"button\" class=\"slick-prev\">&lt;</button>",
       nextArrow: "<button type=\"button\" class=\"slick-next\">&gt;</button>",
     });
