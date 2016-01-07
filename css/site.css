@@ -51,10 +51,23 @@ h2{
 }
 
 .links {
-  margin-bottom: 2em;
-  padding-bottom:1em;
-  border-bottom: 1px solid #E8E8E8;
   background-color:#C5E3DA;
+  border-bottom: 1px solid #f0f0f0;
+border-top: 1px solid #f0f0f0;
+font: normal normal 10px Montserrat, Georgia, Century Gothic, Trebuchet, Arial, Verdana, Sans-serif;
+z-index: 100;
+overflow: hidden;
+width: 100%;
+text-align:center !important;
+margin: 0px 0px 0px;
+padding: 0px 0px;
+text-transform: uppercase;
+letter-spacing:2px;
+padding-top:13px;
+padding-bottom:13px;
+margin: auto;
+margin-bottom:50px;
+margin-top:-20px;
 }
 
 .links a, .links a:visited {
