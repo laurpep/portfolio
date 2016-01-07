@@ -173,3 +173,7 @@ button.slick-prev, button.slick-next {
 #slick-nav-anchor {
   width: 5em;
 }
+
+.slick-nav {
+  text-align: center;
+}
