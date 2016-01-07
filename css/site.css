@@ -51,7 +51,7 @@ h2{
 }
 
 .links {
-  background-color:#C5E3DA;
+  background-color:#BFB9C0;
   border-bottom: 1px solid #f0f0f0;
 border-top: 1px solid #f0f0f0;
 font: normal normal 10px Montserrat, Georgia, Century Gothic, Trebuchet, Arial, Verdana, Sans-serif;
@@ -71,7 +71,7 @@ margin-top:-20px;
 }
 
 .links a, .links a:visited {
-  color: #222;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size:11px;
   text-transform:uppercase;
