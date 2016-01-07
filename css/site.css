@@ -169,3 +169,7 @@ button.slick-prev, button.slick-next {
   border: none;
   font-size: 5em;
 }
+
+#slick-nav-anchor {
+  width: 5em;
+}
