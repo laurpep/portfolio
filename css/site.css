@@ -50,6 +50,12 @@ h2{
   font-size: 3em;
 }
 
+h3{
+  font-family: 'Daydreamer';
+  font-size: 5em;
+  margin-bottom:10px;
+}
+
 .links {
   background-color: #9B99A9;
   border-bottom: 1px solid #f0f0f0;
