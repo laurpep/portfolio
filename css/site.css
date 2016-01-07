@@ -34,6 +34,7 @@ a:active {
     src: url('../fonts/nothing-you-could-do.ttf') format('truetype');
 }
 
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
 
 #tagline {
   font-family: "Open Sans";
@@ -58,8 +59,8 @@ h2{
 }
 
 h3{
-  font-family: 'Open Sans';
-  font-size: 3em;
+  font-family: 'PT Sans';
+  font-size: 1em;
   text-align:right;
   weight:300;
   text-transform:uppercase;
