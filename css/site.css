@@ -168,10 +168,11 @@ button.slick-prev, button.slick-next {
   background: none;
   border: none;
   font-size: 5em;
+  padding: 0 2em;
 }
 
 #slick-nav-anchor {
-  width: 5em;
+  text-align: center;
 }
 
 .slick-nav {
