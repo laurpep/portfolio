@@ -36,10 +36,10 @@ a:active {
 
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 
-#tagline {
-  font-family: "Open Sans";
-  font-size:.22em;
-  font-weight:300;
+#links {
+  font-family: "PT Sans";
+  font-size:1em;
+  text-align:left;
 }
 
 h1, .links {
