@@ -168,7 +168,14 @@ button.slick-prev, button.slick-next {
   background: none;
   border: none;
   font-size: 5em;
-  padding: 0 2em;
+}
+
+button.slick-prev {
+  margin-right: 2em; 
+}
+
+button.slick-next {
+  margin-left: 2em;
 }
 
 #slick-nav-anchor {
